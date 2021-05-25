@@ -8,7 +8,7 @@ NAME='pifu_demo'
 
 # Network configuration
 
-BATCH_SIZE=1
+BATCH_SIZE=3
 MLP_DIM='257 1024 512 256 128 1'
 MLP_DIM_COLOR='513 1024 512 256 128 3'
 
