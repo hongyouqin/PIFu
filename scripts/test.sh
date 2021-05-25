@@ -33,6 +33,7 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python ./apps/eval.py \
     --hg_down 'ave_pool' \
     --norm 'group' \
     --norm_color 'group' \
+    --num_views 3 \
     --test_folder_path ${TEST_FOLDER_PATH} \
     --load_netG_checkpoint_path ${CHECKPOINTS_NETG_PATH} \
     --load_netC_checkpoint_path ${CHECKPOINTS_NETC_PATH}
